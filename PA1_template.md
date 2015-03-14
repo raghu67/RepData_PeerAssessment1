@@ -146,7 +146,7 @@ median(activity2_by_day$steps)
 ```
 ## [1] 10762
 ```
-Compute the difference between the mean without imputed values and with imputed values. They are very close
+Compute the difference between the median without imputed values and with imputed values. They are very close
 
 ```r
 median(activity2_by_day$steps) - median(activity_by_day$steps)
